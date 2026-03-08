@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { inputtext } from "../../redux/about/action";
+import { inputext } from "../../redux/about/action";
 // import { inputtext } from "../../redux/about/action";
 
 export default function Title(props) {
@@ -10,7 +10,7 @@ export default function Title(props) {
   const dispatch = useDispatch();
 
   const handleclick = (e) => {
-    dispatch(inputtext(e.target.value));
+    dispatch(inputext(e.target.value));
   };
 
   return (

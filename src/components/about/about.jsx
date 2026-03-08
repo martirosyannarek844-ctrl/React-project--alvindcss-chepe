@@ -1,4 +1,5 @@
 import saturn from "../../assets/saturn.jpg";
+import { Likes } from "../likes/likes";
 import Title from "../title/title";
 
 export default function About() {
@@ -9,6 +10,7 @@ export default function About() {
           <div className="flex flex-col max-w-[60%]">
             <img src={saturn} alt="saturn" />
             <Title/>
+            <Likes/>
           </div>
         </div>
       </div>
