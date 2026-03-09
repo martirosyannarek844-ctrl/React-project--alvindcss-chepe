@@ -1,9 +1,10 @@
 import { combineReducers } from "redux";
 import { likeRediucer } from "./about/rediucer";
 
+
 const rootRediucer = combineReducers({
-    text: likeRediucer,
-    likes: likeRediucer
+    likes: likeRediucer,
+    text: likeRediucer
 })
 
 export default rootRediucer
