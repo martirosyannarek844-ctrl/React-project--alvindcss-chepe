@@ -2,8 +2,9 @@ import { connect } from "react-redux";
 import { decrementLikes, incrementLikes } from "../../redux/about/action";
 
 
-export function Likes(props) {
-    console.log("render", props);
+ function Likes(props) {
+    console.log("render>", props);
+    
 
     return (
         <div className="flex justify-around mt-5">
@@ -31,7 +32,7 @@ function mapStateToProps(state) {
     const { likes } = state;
 
     return {
-        likes: likes.likes,
+        likes: likes.likes
     };
 }
 

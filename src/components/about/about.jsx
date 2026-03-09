@@ -1,5 +1,6 @@
 import saturn from "../../assets/saturn.jpg";
-import { Likes } from "../likes/likes";
+import Likes from "../likes/likes";
+
 import Title from "../title/title";
 
 export default function About() {
