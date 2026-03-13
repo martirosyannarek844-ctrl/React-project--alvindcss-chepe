@@ -1,4 +1,4 @@
-import { DECREMENT, INCREMENT, INPUT_TEXT } from "./type";
+import { COMENT_CREATE, COMENT_DELETE, DECREMENT, INCREMENT, INPUT_TEXT } from "./type";
 
 export function inputext(text){
     return{
