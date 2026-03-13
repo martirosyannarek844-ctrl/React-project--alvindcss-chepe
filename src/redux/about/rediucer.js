@@ -2,7 +2,8 @@ import { COMENT_CREATE, COMENT_DELETE, DECREMENT, INCREMENT, INPUT_TEXT } from "
 
 const initialSate = {
     likes: 0,
-    text: ''
+    text: '',
+    comments: []
 }
 
 export const likeRediucer = (state = initialSate, action) => {
