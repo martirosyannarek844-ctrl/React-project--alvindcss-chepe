@@ -46,7 +46,6 @@ export default function SingleComment({ data }) {
       />
 
       <input type="submit" hidden />
-      
     </form>
   );
 }
