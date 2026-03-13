@@ -1,4 +1,5 @@
 import saturn from "../../assets/saturn.jpg";
+import Comments from "../comments/comments";
 import Likes from "../likes/likes";
 
 import Title from "../title/title";
@@ -13,6 +14,7 @@ export default function About() {
             <Title/>
             <Likes/>
           </div>
+          <Comments/>
         </div>
       </div>
     </div>

@@ -18,3 +18,17 @@ export function incrementLikes(){
         type: INCREMENT
     }
 }
+
+export function commentCreate(text, id){
+    return{
+        type: COMENT_CREATE,
+        data: {text, id}
+    }
+}
+
+export function commentDelete(id){
+    return{
+        type: COMENT_DELETE,
+        id
+    }
+}
